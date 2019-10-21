@@ -1,7 +1,7 @@
 function bankAccount(){
     this.total = 0
     this.amount = 0
-    this.statement =['date || credit || debit || balance\n']
+    this.statement =[]
 }
 bankAccount.prototype.findDate = function(){
     let today = new Date()
@@ -11,29 +11,25 @@ bankAccount.prototype.findDate = function(){
     today =  dd + '/' + mm + '/' + year 
     return today
 }
-bankAccount.prototype.balanceCheck= function(){
-    let date = this.findDate()
-    return this.total;
-}
 
 bankAccount.prototype.deposit = function(amount){
     let date = this.findDate()
     this.total+= amount
-    this.statement.push(date + ' || ')
-    this.statement.push(amount + ' || || ' + this.total+ '.00')
+    this.statement.unshift(date + ' || ' + amount + ' || || ' + this.total+ '.00\n')
     return this.total
 }
 
 bankAccount.prototype.withdrawal =  function(amount){
     let date = this.findDate()
-    this.total-= amount
+    this.total -= amount
     let line = date + ' ||  || '+ amount + ' || ' + this.total + '.00\n'
-    this.statement.push(line)
-    this.statement.join(",")
-    console.log("statement= " + this.statement)
+    this.statement.unshift(line)
     return this.total
 }
 
 bankAccount.prototype.print = function(){
-    return this.statement
+    let header = 'date || credit || debit || balance\n'
+    this.statement.unshift(header)
+    let finalStatement = this.statement.join('')
+    return finalStatement
 }
