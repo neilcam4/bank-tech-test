@@ -1,7 +1,7 @@
 function bankAccount(){
-    this.total = 0
-    this.amount = 0
-    this.statement =[]
+    this.total = 0.00
+    this.amount = 0.00
+    this.statement = []
 }
 bankAccount.prototype.findDate = function(){
     let today = new Date()
@@ -14,17 +14,21 @@ bankAccount.prototype.findDate = function(){
 
 bankAccount.prototype.deposit = function(amount){
     let date = this.findDate()
-    this.total+= amount
-    this.statement.unshift(date + ' || ' + amount + ' || || ' + this.total+ '.00\n')
-    return this.total
+    let newAmount = parseFloat(amount).toFixed(2)
+    this.total += amount
+    let newTotal = parseFloat(this.total).toFixed(2)
+    this.statement.unshift(date + ' || ' + newAmount + ' || || ' + newTotal + '\n')
+    return newTotal
 }
 
 bankAccount.prototype.withdrawal =  function(amount){
     let date = this.findDate()
     this.total -= amount
-    let line = date + ' ||  || '+ amount + ' || ' + this.total + '.00\n'
+    let newAmount = parseFloat(amount).toFixed(2)
+    let newTotal = parseFloat(this.total).toFixed(2)
+    let line = date + ' ||  || '+ newAmount + ' || ' + newTotal + '\n'
     this.statement.unshift(line)
-    return this.total
+    return newTotal
 }
 
 bankAccount.prototype.print = function(){
