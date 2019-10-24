@@ -9,8 +9,11 @@ download the repo into your Projects folder using
 *******
 git@github.com:neilcam4/bank-tech-test.git
 ********
+
 open up SpecRunner.html in a browser
+
 and visit the javascript console.
+
 
 *********************
 User Stories
