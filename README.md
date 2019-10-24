@@ -16,13 +16,35 @@ and visit the javascript console.
 
 
 *********************
-User Stories
+### User Stories
 **********************
 Given a client makes a deposit of 1000 on 10-01-2012
 And a deposit of 2000 on 13-01-2012
 And a withdrawal of 500 on 14-01-2012
 When she prints her bank statement
 Then she would see
+
+************
+### How to Use
+*************
+
+In javascript console:
+
+let money = new BankAccount
+
+money.deposit(1000)
+
+money.deposit(1000)
+
+money.withdrawal(500)
+
+money.print()
+
+"date || credit || debit || balance
+23/10/2019 ||  || 500 || 1500.00
+23/10/2019 || 1000 || || 2000.00
+23/10/2019 || 1000 || || 1000.00
+"
 
 date || credit || debit || balance
 14/01/2012 || || 500.00 || 2500.00
