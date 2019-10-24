@@ -18,7 +18,7 @@ and visit the javascript console.
 ### User Stories
 **********************
 
-`As a user,
+`As a user,`
 
 `In order to add money to my account,`
 
