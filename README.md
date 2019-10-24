@@ -28,16 +28,16 @@ Then she would see
 *************
 
 In javascript console:
-
-let money = new BankAccount
-
-money.deposit(1000)
-
-money.deposit(1000)
-
-money.withdrawal(500)
-
-money.print()
+Create a new account
+`let money = new BankAccount`
+Deposit an amount of £1000
+`money.deposit(1000)`
+Deposit an amount of £2000
+`money.deposit(1000)`
+Withdrawal an amount of £5000
+`money.withdrawal(500)`
+Print out bank statement
+`money.print()`
 
 ![console](https://github.com/neilcam4/bank-tech-test/blob/master/banking.png)
 
