@@ -39,6 +39,11 @@ and visit the javascript console.
 `I would like to print out a bank statement.`
 
 
+`As a user,`
+
+`In order to prevent me from taking more money than I have,`
+
+`I would like to see an error message if balance is less than 0.`
 ************
 ### How to Use
 *************
