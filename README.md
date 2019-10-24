@@ -20,23 +20,23 @@ and visit the javascript console.
 
 `As a user,
 
-In order to add money to my account,
+`In order to add money to my account,`
 
-I would like to make a deposit at a particular date.`
-
-
-`As a user,
-
-In order to withdrawal my money,
-
-I would like to make a withdrawal at a particular date`
+`I would like to make a deposit at a particular date.`
 
 
-`As a user,
+`As a user,`
 
-In order to see which transactions have taken place,
+`In order to withdrawal my money,`
 
-I would like to print out a bank statement.`
+`I would like to make a withdrawal at a particular date`
+
+
+`As a user,`
+
+`In order to see which transactions have taken place,`
+
+`I would like to print out a bank statement.`
 
 
 ************
