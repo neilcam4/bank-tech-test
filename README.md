@@ -1,4 +1,5 @@
-#H1 My Bank Account
+# Alt-H1 My Bank Account
+=========================
 
 An App that will record deposits and withdrawals and will print out a bank statement with all recorded transactions.
 
