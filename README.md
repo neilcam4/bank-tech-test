@@ -1,15 +1,14 @@
 # My Bank Account
 
 
-An App that will record deposits and withdrawals and will print out a bank statement with all recorded transactions.
+An App that will record deposits and withdrawals and will print out a bank statement with all recorded transactions and with the given date.
 
-Requirements
-You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
-Deposits, withdrawal.
-Account statement (date, amount, balance) printing.
-Data can be kept in memory (it doesn't need to be stored to a database or anything).
+## Installation
+
+download the repo into your Projects folder using git@github.com:neilcam4/bank-tech-test.git
+
 *********************
-Acceptance criteria
+User Stories
 **********************
 Given a client makes a deposit of 1000 on 10-01-2012
 And a deposit of 2000 on 13-01-2012
