@@ -5,7 +5,11 @@ An App that will record deposits and withdrawals and will print out a bank state
 
 ## Installation
 
-download the repo into your Projects folder using git@github.com:neilcam4/bank-tech-test.git
+download the repo into your Projects folder using 
+*******
+git@github.com:neilcam4/bank-tech-test.git
+
+********
 
 *********************
 User Stories
