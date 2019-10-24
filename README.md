@@ -1,6 +1,5 @@
 # My Bank Account
 
-
 An App that will record deposits and withdrawals and will print out a bank statement with all recorded transactions and with the given date.
 
 ## Installation
@@ -39,6 +38,8 @@ money.deposit(1000)
 money.withdrawal(500)
 
 money.print()
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 "date || credit || debit || balance
 23/10/2019 ||  || 500 || 1500.00
