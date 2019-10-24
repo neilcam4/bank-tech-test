@@ -39,7 +39,8 @@ money.withdrawal(500)
 
 money.print()
 
-![banking](banking.png)
+![alt text](https://github.com/neilcam4/bank-tech-test/banking.png)
+
 
 "date || credit || debit || balance
 23/10/2019 ||  || 500 || 1500.00
