@@ -39,7 +39,7 @@ money.withdrawal(500)
 
 money.print()
 
-![alt text](https://github.com/neilcam4/bank-tech-test/banking.png)
+![console](https://github.com/neilcam4/bank-tech-test/banking.png)
 
 
 "date || credit || debit || balance
