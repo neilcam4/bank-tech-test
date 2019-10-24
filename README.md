@@ -39,7 +39,7 @@ money.withdrawal(500)
 
 money.print()
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![banking](banking.png)
 
 "date || credit || debit || balance
 23/10/2019 ||  || 500 || 1500.00
