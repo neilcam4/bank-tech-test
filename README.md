@@ -17,11 +17,21 @@ and visit the javascript console.
 *********************
 ### User Stories
 **********************
-Given a client makes a deposit of 1000 on 10-01-2012
-And a deposit of 2000 on 13-01-2012
-And a withdrawal of 500 on 14-01-2012
-When she prints her bank statement
-Then she would see
+
+`As a user,
+In order to add money to my account,
+I would like to make a deposit at a particular date.`
+
+
+`As a user,
+In order to withdrawal my money,
+I would like to make a withdrawal at a particular date`
+
+
+`As a user,
+In order to see which transactions have taken place,
+I would like to print out a bank statement.`
+
 
 ************
 ### How to Use
