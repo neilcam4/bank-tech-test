@@ -31,18 +31,26 @@ In javascript console:
 
 
 Create a new account
+
+
 `let money = new BankAccount`
 
 
 Deposit an amount of £1000
+
+
 `money.deposit(1000)`
 
 
 Deposit an amount of £2000
+
+
 `money.deposit(1000)`
 
 
 Withdrawal an amount of £5000
+
+
 `money.withdrawal(500)`
 
 
