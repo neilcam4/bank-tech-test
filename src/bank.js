@@ -22,17 +22,23 @@ class BankAccount {
     }
 
     withdrawal = function (amount) {
-        let date = this.findDate()
-        this.total -= amount
-        let line = date + ' ||  || ' + amount + ' || ' + this.total + '.00\n'
-        this.statement.unshift(line)
-        return this.total
+        if(this.total - amount > 0){
+            let date = this.findDate()
+            this.total -= amount
+            let line = date + ' ||  || ' + amount + ' || ' + this.total + '.00\n'
+            this.statement.unshift(line)
+            return this.total
+        }
+        else {
+            return "Insufficient Funds to make transaction"
+        }
     }
 
     print = function () {
         let header = 'date || credit || debit || balance\n'
         this.statement.unshift(header)
         let finalStatement = this.statement.join('')
-        return finalStatement 
+        console.log(finalStatement)
+        return finalStatement
     }
 }
