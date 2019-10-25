@@ -79,7 +79,7 @@ Print out bank statement
 `money.print()`
 
 
-![console](https://github.com/neilcam4/bank-tech-test/blob/master/banking.png)
+![console](https://github.com/neilcam4/bank-tech-test/blob/master/banking1.png)
 
 
 
